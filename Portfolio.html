@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suryaprakash S — Embedded Hardware Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Nunito+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ──────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo"><span>S.</span>SP</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── MOBILE MENU ─────────────────────────────── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about"      onclick="closeMenu()">About</a></li>
+      <li><a href="#skills"     onclick="closeMenu()">Skills</a></li>
+      <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+      <li><a href="#projects"   onclick="closeMenu()">Projects</a></li>
+      <li><a href="#contact"    onclick="closeMenu()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ───────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg-text">ENGINEER</div>
+    <div class="wrapper">
+      <div class="hero-content">
+        <p class="hero-eyebrow fade-up">Embedded Hardware Engineer · 7+ Years</p>
+        <h1 class="hero-name fade-up delay-1">Surya<br/><span>prakash</span> S</h1>
+        <p class="hero-tagline fade-up delay-2">
+          Designing embedded systems that power automation,
+          electric vehicles, solar solutions, and industrial machinery.
+        </p>
+        <div class="hero-cta fade-up delay-3">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact"  class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-stats fade-up delay-4">
+        <div class="stat">
+          <span class="stat-val">7+</span>
+          <span class="stat-lbl">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-val">7+</span>
+          <span class="stat-lbl">MCU Platforms</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-val">4</span>
+          <span class="stat-lbl">Companies</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-val">20%</span>
+          <span class="stat-lbl">Cost Reduction Achieved</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────── -->
+  <section id="about">
+    <div class="wrapper">
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">From circuit schematics<br/>to production hardware.</h2>
+        </div>
+        <div class="about-right">
+          <p>
+            I'm <strong>Suryaprakash S</strong>, an embedded hardware engineer with 7+ years of experience
+            designing PCBs, developing firmware, and delivering reliable embedded solutions across
+            automotive, industrial, consumer, and renewable energy sectors.
+          </p>
+          <p style="margin-top:16px;">
+            My work spans ECU reverse engineering at <strong>Robert Bosch (via Cyient)</strong>,
+            textile automation at <strong>LMW Limited</strong>, BMS design at <strong>Synergy Circuits</strong>,
+            and full-stack hardware R&D for EV charging stations and solar systems at <strong>INGLO</strong>.
+          </p>
+          <div class="about-badges">
+            <span class="badge">PCB Design</span>
+            <span class="badge">Firmware Dev</span>
+            <span class="badge">BMS</span>
+            <span class="badge">Power Electronics</span>
+            <span class="badge">Motor Drives</span>
+            <span class="badge">EV Systems</span>
+          </div>
+          <div class="about-info-row">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <span>Tamil Nadu, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📧</span>
+              <a href="mailto:surya1.galaxy@gmail.com">surya1.galaxy@gmail.com</a>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">📞</span>
+              <span>+91 9786501390</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────── -->
+  <section id="skills" class="section-warm">
+    <div class="wrapper">
+      <div class="section-label center">Technical Skills</div>
+      <h2 class="section-title center">Tools, technologies &amp; expertise.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Circuit Design</h3>
+          <ul>
+            <li>Analog Signal Design</li>
+            <li>Digital Signal Design</li>
+            <li>Mixed-Signal Design</li>
+            <li>Power Electronics</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>EDA Tools</h3>
+          <ul>
+            <li>Altium Designer</li>
+            <li>CadSoft EAGLE</li>
+            <li>Cadence Allegro</li>
+            <li>KiCad</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📡</div>
+          <h3>Communication Protocols</h3>
+          <ul>
+            <li>UART / SPI / I2C</li>
+            <li>CAN / LIN</li>
+            <li>RS-485 / RS-232</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Microcontrollers</h3>
+          <ul>
+            <li>dsPIC33</li>
+            <li>STM32 </li>
+            <li>MSP430</li>
+            <li>Atmel</li>
+            <li>TM4C (TIVA)</li>
+            <li>SAMD51</li>
+            <li>Renesas R5F</li>
+            <li>NXP MKM34 &amp; MKM35</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Simulation Tools</h3>
+          <ul>
+            <li>LTSpice</li>
+            <li>MATLAB Simulink</li>
+            <li>TINA TI</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📋</div>
+          <h3>Hardware Documentation</h3>
+          <ul>
+            <li>Design Calculation</li>
+            <li>DFMEA</li>
+            <li>MTBF Analysis</li>
+            <li>RCA / 8D Reports</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔬</div>
+          <h3>Test Equipment</h3>
+          <ul>
+            <li>Digital Oscilloscope</li>
+            <li>Logic Analyzer</li>
+            <li>Function Generator</li>
+            <li>Power Analyzer</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔋</div>
+          <h3>Specialisations</h3>
+          <ul>
+            <li>BMS (Active &amp; Passive)</li>
+            <li>SMPS / DC-DC Converters</li>
+            <li>BLDC / Stepper Drives</li>
+            <li>MPPT / Solar Systems</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ─────────────────────────────── -->
+  <section id="experience">
+    <div class="wrapper">
+      <div class="section-label">Work History</div>
+      <h2 class="section-title">Career journey.</h2>
+
+      <div class="timeline">
+
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-date">Mar 2025 — Present</div>
+            <h3 class="tl-role">Senior Hardware Engineer</h3>
+            <div class="tl-company">Robert Bosch (via Cyient)</div>
+            <ul class="tl-points">
+              <li>ECU reverse engineering — microcontroller pinouts, CAN/LIN/UART protocols, and memory mapping for functional replication.</li>
+              <li>BOM cost reduction by analyzing component alternatives and collaborating with suppliers without compromising quality.</li>
+              <li>Integrated ADCs, DACs, op-amps, and MCUs in custom PCBs for sensor interfacing and real-time data acquisition.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-date">Jun 2022 — Dec 2024</div>
+            <h3 class="tl-role">Hardware Engineer</h3>
+            <div class="tl-company">LMW Limited</div>
+            <ul class="tl-points">
+              <li>Designed embedded control systems for textile machinery — automation, precision motor control, and real-time processing.</li>
+              <li>Engineered custom PCBs and MCU-based systems for motor control, sensors, and data acquisition.</li>
+              <li>Implemented predictive maintenance using embedded sensors to reduce downtime.</li>
+              <li>Conducted DFMEA, MTBF, and RCA documentation for all new product developments.</li>
+              <li><strong class="achievement">Achievement:</strong> Converted PLC systems to embedded systems, reducing costs by 20%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-date">Nov 2021 — May 2022</div>
+            <h3 class="tl-role">Hardware Engineer</h3>
+            <div class="tl-company">Synergy Circuits Pvt. Ltd.</div>
+            <ul class="tl-points">
+              <li>Developed customized schematics based on client requirements.</li>
+              <li>Sourced alternative components to resolve supply chain disruptions.</li>
+              <li>Designed and tested battery management systems (BMS) for consumer and industrial applications.</li>
+              <li><strong class="achievement">Achievement:</strong> Reduced production costs by optimizing PCB layouts and minimizing component count.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-body">
+            <div class="tl-date">Jun 2018 — Nov 2021</div>
+            <h3 class="tl-role">R&amp;D Engineer</h3>
+            <div class="tl-company">INGLO</div>
+            <ul class="tl-points">
+              <li>Designed solar charge controllers, LED lights, and EV charging stations using EAGLE.</li>
+              <li>Developed firmware for MCU-based products and designed test jigs for validation.</li>
+              <li>Worked on BLDC motor drives — remote-controlled ceiling fans and E-cycle designs.</li>
+              <li>Key role in hybrid charge controllers and MPPT systems development.</li>
+              <li><strong class="achievement">Achievement:</strong> Spearheaded 1-phase &amp; 3-phase EV charging station designs meeting industry standards.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ────────────────────────────────── -->
+  <section id="projects" class="section-warm">
+    <div class="wrapper">
+      <div class="section-label center">Projects Handled</div>
+      <h2 class="section-title center">Click a project to explore details.</h2>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECT DETAIL MODAL ───────────────────── -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ── EDUCATION ──────────────────────────────── -->
+  <section id="education">
+    <div class="wrapper">
+      <div class="section-label">Education</div>
+      <h2 class="section-title">Academic background.</h2>
+
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-degree">B.Tech — Electrical &amp; Electronics Engineering</div>
+            <div class="edu-inst">Kalasalingam Academy of Research and Higher Education</div>
+            <div class="edu-year">2018 · CGPA 7.16</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">📘</div>
+          <div>
+            <div class="edu-degree">HSC — Tamil Nadu State Board</div>
+            <div class="edu-inst">Kalaimagal Higher Secondary School</div>
+            <div class="edu-year">2014 · 79.33%</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">📗</div>
+          <div>
+            <div class="edu-degree">SSLC — Tamil Nadu State Board</div>
+            <div class="edu-inst">Kalaimagal Higher Secondary School</div>
+            <div class="edu-year">2012 · 81.2%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────── -->
+  <section id="contact" class="section-warm">
+    <div class="wrapper">
+      <div class="contact-box">
+        <div class="section-label center">Contact</div>
+        <h2 class="section-title center">Let's build something<br/>remarkable together.</h2>
+        <p class="contact-sub">
+          Open to senior embedded hardware roles, PCB design consulting, and product R&amp;D collaborations.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:surya1.galaxy@gmail.com" class="contact-card">
+            <span class="cc-icon">✉</span>
+            <span>surya1.galaxy@gmail.com</span>
+          </a>
+          <a href="tel:+919786501390" class="contact-card">
+            <span class="cc-icon">📞</span>
+            <span>+91 9786501390</span>
+          </a>
+          <a href="tel:+916379609265" class="contact-card">
+            <span class="cc-icon">📱</span>
+            <span>+91 6379609265</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer>
+    <div class="wrapper footer-inner">
+      <div class="footer-logo">SP<span>.</span></div>
+      <div class="footer-copy">© 2025 Suryaprakash S · Embedded Hardware Engineer · Tamil Nadu, India</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
